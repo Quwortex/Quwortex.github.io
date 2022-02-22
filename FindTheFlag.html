@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Capture the flag!</title>
+</head>
+<body>
+    <h1>Can you find me?</h1><br>
+    <label>Enter your FLAG:</label>
+    <input type="text" id="flag">
+    <input type="button"button value="Submit FLAG!" onclick="flagverification()">
+    
+    <script>
+    function flagverification() {
+        var result=document.getElementById("flag");
+        if (result.value=="Pf0D1kGj3F67e82SgZ4") {
+            alert("Welcome to our team!");
+            location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            
+        }else{
+            document.write("You are not skilled enough to be a musqatier!");
+        }
+    }
+    </script>
+    
+</body>
+    <!--FLAG=Pf0D1kGj3F67e82SgZ4-->
+</html>
